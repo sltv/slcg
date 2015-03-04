@@ -14,6 +14,6 @@ require "pg"
   end
 
 db_config = YAML::load(File.open(Environment.config_dir + 'database.yml'))
-db_config['username'] = ENV['dbusername']
-db_config['password'] = ENV['dbpassword']
+db_config['username'] = ENV['slcgusername']
+db_config['password'] = ENV['slcgpassword']
 ActiveRecord::Base.establish_connection(db_config)

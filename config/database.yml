@@ -1,5 +1,5 @@
 adapter: 'postgresql'
-database: 'video_records'
-username: <%= ENV['DBUSERNAME'] %>
-password: <%= ENV['DBPASSWORD'] %>
+database: 'slcgdatabase'
+username: 0
+password: 0
 host: 'localhost'
